@@ -1,11 +1,21 @@
+import java.util.Scanner;
 
 public class Dayone {
     public static void main(String[] args) {
-        String[] str ={"R","A","J","A","S","T","H","A","N"};
-        System.out.println("the given string is : RAJASTHAN");
-        System.out.print("the reverse string will be:");
-    for(int i=0;i<str.length;i++){
-        System.out.print(str[str.length-1-i]);
-    }
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+        
+        String reversed = "";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
+        }
+        
+        System.out.println("Reversed string: " + reversed);
+        
+        scanner.close();
     }
 }
+
+

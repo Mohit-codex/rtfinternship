@@ -12,7 +12,7 @@ public class Dayone {
             reversed += input.charAt(i);
         }
         
-        System.out.println("Reversed string: " + reversed);
+        System.out.println("Reversed  string: " + reversed);
         
         scanner.close();
     }

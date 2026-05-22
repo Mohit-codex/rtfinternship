@@ -8,7 +8,7 @@ public class Day11{
         int lineCount = 0;
         int wordTotal = 0;
         String longest = "";
-        String line;
+        String  line;
 
         while ((line = br.readLine()) != null) {
             lineCount++;

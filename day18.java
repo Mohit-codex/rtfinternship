@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ProducerConsumer {
+public class day18 {
 
     // Shared buffer with limited size
     static class Buffer {
